@@ -130,8 +130,12 @@ button, input {
     font-size: 1.2rem;
     border-color: var(--fg-control-border-primary);
     border-style: solid;
+    background-color: var(--bg-control-primary);
     border-width: 1px;
+    color: var(--fg-primary);
 }
+
+textarea { background-color: var(--bg-control-primary); color: var(--fg-primary); }
 
 input[type=number] {
     background-color: var(--bg-secondary);
